@@ -2,22 +2,38 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/tab1"
+        android:id="@+id/menu1"
+        android:checked="false"
+        android:enabled="true"
+        android:icon="@drawable/menu_community"
+        android:title="커뮤니티"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu2"
+        android:checked="false"
+        android:enabled="true"
+        android:icon="@drawable/menu_dictionary"
+        android:title="식물도감"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu3"
         android:checked="true"
         android:enabled="true"
-        android:icon="@drawable/main_list_icon"
-        android:title="리스트"
+        android:icon="@drawable/menu_home"
+        android:title="홈"
         app:showAsAction="always" />
     <item
-        android:id="@+id/tab2"
+        android:id="@+id/menu4"
+        android:checked="false"
         android:enabled="true"
-        android:icon="@drawable/main_record_icon"
-        android:title="기록"
+        android:icon="@drawable/menu_market"
+        android:title="마"
         app:showAsAction="always" />
     <item
-        android:id="@+id/tab3"
+        android:id="@+id/menu5"
+        android:checked="false"
         android:enabled="true"
-        android:icon="@drawable/main_more_icon"
-        android:title="더보기"
+        android:icon="@drawable/menu_settings"
+        android:title="설정"
         app:showAsAction="always" />
 </menu>
