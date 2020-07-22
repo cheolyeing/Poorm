@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Poorm</string>
+    <string name="imgErr">Image Not Loaded!</string>
 </resources>
