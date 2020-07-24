@@ -10,7 +10,7 @@
         app:showAsAction="always" />
     <item
         android:id="@+id/menu2"
-        android:checked="false"
+        android:checked="true"
         android:enabled="true"
         android:icon="@drawable/menu_dictionary"
         android:title="식물도감"
@@ -24,7 +24,7 @@
         app:showAsAction="always" />
     <item
         android:id="@+id/menu4"
-        android:checked="false"
+        android:checked="true"
         android:enabled="true"
         android:icon="@drawable/menu_market"
         android:title="마"
