@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_home)
 
         plantRecyclerView.adapter = PlantRecyclerViewAdapter()
-        var gridLayoutManager = GridLayoutManager(this, 2)
+        var gridLayoutManager = GridLayoutManager(this, 1)
         plantRecyclerView.layoutManager = gridLayoutManager
 
         val fab:View = findViewById(R.id.floatingActionButton)
@@ -82,8 +82,8 @@ class MainActivity : AppCompatActivity() {
                 .inflate(R.layout.home_item_layout, parent, false)
 
             var params = view.layoutParams
-            params.height = parent.measuredWidth / 2
-            params.width = parent.measuredWidth / 2
+            params.height = parent.measuredWidth / 3
+            params.width = parent.measuredWidth
             return PlantViewHolder(view)
         }
 
