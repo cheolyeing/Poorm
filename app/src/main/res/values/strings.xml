@@ -8,4 +8,12 @@
     <string name="others">특이 사항</string>
     <string name="save">저장</string>
     <string name="back">뒤로</string>
+
+    <string name="community">커뮤니티</string>
+    <string name="dictionary">식물도감</string>
+    <string name="home">홈</string>
+    <string name="market">마켓</string>
+    <string name="settings">환경설정</string>
+
+    <string name="todaysMission">오늘의 미션 달성 </string>
 </resources>

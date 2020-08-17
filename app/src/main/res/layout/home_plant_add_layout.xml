@@ -44,7 +44,7 @@
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/species"
+        app:layout_constraintStart_toEndOf="@+id/plant_species"
         app:layout_constraintTop_toBottomOf="@+id/inputStartDate" />
 
     <EditText
@@ -127,7 +127,7 @@
         app:layout_constraintTop_toTopOf="@+id/inputStartDate" />
 
     <TextView
-        android:id="@+id/species"
+        android:id="@+id/plant_species"
         android:layout_width="60dp"
         android:layout_height="20dp"
         android:gravity="center"

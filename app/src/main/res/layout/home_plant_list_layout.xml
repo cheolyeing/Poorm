@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigationView"
         android:layout_width="match_parent"
@@ -26,6 +25,7 @@
         android:id="@+id/myFarm"
         android:layout_width="300dp"
         android:layout_height="200dp"
+        android:layout_marginTop="10dp"
         android:contentDescription="@string/imgErr"
         android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
@@ -55,15 +55,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:rippleColor="#FFFFFF"
         app:srcCompat="@drawable/plus" />
-
-    <Button
-        android:id="@+id/add"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginBottom="20dp"
-        android:text="@string/defaultText"
-        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
-        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

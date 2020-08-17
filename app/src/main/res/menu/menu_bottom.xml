@@ -2,38 +2,38 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/menu1"
+        android:id="@+id/menu_community"
         android:checked="false"
         android:enabled="true"
         android:icon="@drawable/menu_community"
-        android:title="커뮤니티"
-        app:showAsAction="always" />
+        android:title="@string/community"
+        app:showAsAction="ifRoom" />
     <item
-        android:id="@+id/menu2"
-        android:checked="true"
+        android:id="@+id/menu_dictionary"
+        android:checked="false"
         android:enabled="true"
         android:icon="@drawable/menu_dictionary"
-        android:title="식물도감"
-        app:showAsAction="always" />
+        android:title="@string/dictionary"
+        app:showAsAction="ifRoom" />
     <item
-        android:id="@+id/menu3"
-        android:checked="true"
+        android:id="@+id/menu_home"
+        android:checked="false"
         android:enabled="true"
         android:icon="@drawable/menu_home"
-        android:title="홈"
-        app:showAsAction="always" />
+        android:title="@string/home"
+        app:showAsAction="ifRoom" />
     <item
-        android:id="@+id/menu4"
-        android:checked="true"
+        android:id="@+id/menu_market"
+        android:checked="false"
         android:enabled="true"
         android:icon="@drawable/menu_market"
-        android:title="마"
-        app:showAsAction="always" />
+        android:title="@string/market"
+        app:showAsAction="ifRoom" />
     <item
-        android:id="@+id/menu5"
+        android:id="@+id/menu_settings"
         android:checked="false"
         android:enabled="true"
         android:icon="@drawable/menu_settings"
-        android:title="설정"
-        app:showAsAction="always" />
+        android:title="@string/settings"
+        app:showAsAction="ifRoom" />
 </menu>
