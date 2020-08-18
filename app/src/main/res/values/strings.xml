@@ -1,4 +1,9 @@
 <resources>
+    <string name="email">이메일</string>
+    <string name="password">비밀번호</string>
+    <string name="login">로그인</string>
+    <string name="join">회원가입</string>
+
     <string name="app_name">Poorm</string>
     <string name="imgErr">Image Not Loaded!</string>
     <string name="defaultText">TEXT</string>
@@ -8,6 +13,9 @@
     <string name="others">특이 사항</string>
     <string name="save">저장</string>
     <string name="back">뒤로</string>
+    <string name="share">공유</string>
+    <string name="successAvg">평균 성공률 :&#160;</string>
+    <string name="valueAvg">100%</string>
 
     <string name="community">커뮤니티</string>
     <string name="dictionary">식물도감</string>

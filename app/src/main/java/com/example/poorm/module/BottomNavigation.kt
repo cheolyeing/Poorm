@@ -2,12 +2,9 @@ package com.example.poorm.module
 
 import android.app.ActionBar
 import android.os.Bundle
-import android.os.PersistableBundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.poorm.R
-import com.google.android.material.bottomnavigation.BottomNavigationMenuView
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import kotlinx.android.synthetic.main.home_plant_list_layout.view.*
 
 class BottomNavigation : AppCompatActivity() {
 
@@ -41,7 +38,7 @@ class BottomNavigation : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.main_layout)
 
         //toolbar = supportActionBar!!
         val bottomNavigation : BottomNavigationView = findViewById(R.id.bottomNavigationView)
