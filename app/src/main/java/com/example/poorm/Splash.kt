@@ -5,7 +5,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.poorm.home.HomePlantList
 
-class Main : AppCompatActivity() {
+class Splash : AppCompatActivity() {
 
     private val LOADING_TIME: Long = 2000
 
@@ -14,12 +14,11 @@ class Main : AppCompatActivity() {
 
         try {
             Thread.sleep(LOADING_TIME)
+            val nextIntent: Intent = Intent(this, HomePlantList::class.java)
+            startActivity(nextIntent)
+            finish()
         } catch (e: Exception) {
             e.printStackTrace()
         }
-
-        val nextIntent: Intent = Intent(this, HomePlantList::class.java)
-        startActivity(nextIntent)
-        finish()
     }
 }
